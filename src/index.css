@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Poppins:wght@300;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+  height: 100%;
+  overflow-x: hidden;  
+  margin: 0px;
+  padding: 0px;
+  zoom: 0.95;
+  
+}
+/* font-styles */
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+   
+
+
+.background-gradient {
+    background: rgb(0,0,0);
+background: linear-gradient(94deg, rgba(0,0,0,1) 0%, rgba(54,53,52,1) 50%, rgba(27,27,26,1) 95%);
+  }
+
+.text-glow {
+    transition: 0.3s ease-in-out;
+}
+.text-glow:hover {
+    text-shadow:  0 0 10px #1733e8, 
+    0 0 20px #1733e8, 
+    0 0 40px #1733e8, 
+    0 0 80px #1733e8;
+ }
+  
+.text-glow1 {
+  text-shadow:  0 0 10px #1733e8, 
+  0 0 20px #1733e8, 
+  0 0 40px #1733e8, 
+  0 0 80px #1733e8;
+}
