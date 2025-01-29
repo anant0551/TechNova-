@@ -22,7 +22,7 @@ const Header = () => {
           <h2 className='text-4xl poppins-medium tracking-wider md:leading-none sm:text-4xl md:text-[50px] inline-block max-w-3xl font-semibold pt-20'>
             Innovate, Elevate, and Dominate the digital world. With <br /><span class='bebas-neue-regular underline decoration-black decoration-3 text-cyan-600'> TechNova,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br /> the future is now!</h2>
           <div className='mt-16 animate-bounce'> 
-              <a href="#ContactUs" className='border border-white px-8 py-3 bebas-neue-regular tracking-wider rounded-lg'>Contact Us</a>
+              <a href="#Contact" className='border border-white px-8 py-3 bebas-neue-regular tracking-wider rounded-lg'>Contact Us</a>
           </div>
           <hr className='left border-t-2 border-white mb-2 mt-6 mr-80 w-4/5 mx-auto'/> 
         </motion.div>

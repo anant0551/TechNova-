@@ -1,7 +1,6 @@
 import React from 'react'
-import ContactUs from './components/ContactUS';
+import ContactUs from './components/ContactUs';
 import Header from './components/Header';
-
 import Footer from './components/Footer';
 import HomeTabs from './components/Solution_hub';
 
