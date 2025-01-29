@@ -86,8 +86,9 @@ const Footer = () => {
             <div className="flex flex-col">
                 <div className="flex mt-24 mb-12 flex-row justify-between">
                 
-                    <a href="/" className=" w-[128px] h-[30px] md:w-[213px] md:h-[50px]  ">
-                        <video autoPlay loop muted className="grayscale h-full w-full rounded-lg object-contain">
+                    <a href="/" className="relative w-[128px] h-[30px] md:w-[213px] md:h-[50px]  ">
+                         <img src={assets.logo_bhnd} className="grayscale h-full w-full rounded-lg object-contain" alt="logo" />
+                        <video autoPlay loop muted className="grayscale absolute top-0 h-full w-full rounded-lg object-contain">
                             <source src={assets.logo} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>

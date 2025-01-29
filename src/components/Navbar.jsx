@@ -20,8 +20,9 @@ useEffect(()=>{
     <div className='absolute top-0 left-0 w-full  overflow-hidden z-10'>
         <div className='container mx-auto flex justify-between items-center rounded-md px-6 md:px-0 md:mx-10 md:h-[50px]  md:mt-8 mt-3
          fixed top-0 right-0 left-0 backdrop-blur-md'>
-        <a href="/" className=" w-[128px] h-[30px] md:w-[213px] md:h-[50px]  ">
-                <video autoPlay loop muted className="grayscale h-full w-full rounded-lg object-contain">
+        <a href="/" className=" relative w-[128px] h-[30px] md:w-[213px] md:h-[50px]  ">
+                <img src={assets.logo_bhnd} className="grayscale h-full w-full rounded-lg object-contain" alt="logo" />
+                <video autoPlay loop muted className="grayscale absolute top-0 h-full w-full rounded-lg object-contain">
                     <source src={assets.logo} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

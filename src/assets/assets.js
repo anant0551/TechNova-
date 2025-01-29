@@ -1,4 +1,5 @@
 import logo from './top.mp4'
+import logo_bhnd from './logo-bhnd.jpg'
 import Footer from './bg3.mp4'
 import webvid from './webdev.mp4'
 import cloud from './cloud.mp4'
@@ -11,6 +12,7 @@ import main_bg from './techbg2_2k.mp4'
 
 export const assets = {
     logo,
+    logo_bhnd,
     webvid,
     cloud,
     aiml,
